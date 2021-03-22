@@ -1,0 +1,76 @@
+import java.util.Scanner;
+
+public class JavaLibs5026201117 {
+
+    public static void main(String[] args) {
+	String MyName, FriendName, CityName1, MyMajor, FriendMajor;
+	int MyAge, FriendAge, DaysToGo, Nums3, Nums4, result_1;
+	double Nums1, Nums2, result;
+	Scanner UserInput;
+	UserInput = new Scanner(System.in);
+
+	//input your name here
+	MyName = UserInput.nextLine();
+	System.out.println(MyName + " : Assalamualaikum bro, greetings. what is your name?");
+
+	//input your friend's name
+	FriendName = UserInput.nextLine();
+	System.out.println("?????? : Waalaikumsalam, my name is " + FriendName + ". whats yours?");
+	System.out.println(MyName + " : My name is " + MyName + ". by the way what major do you take?");
+
+	//input your friend's major
+	FriendMajor = UserInput.nextLine();
+	System.out.println(FriendName + " : I currently study in " + FriendMajor + ", how about you?");
+
+	//input your major
+	MyMajor = UserInput.nextLine();
+	System.out.println(MyName + " : i see. well, i take " + MyMajor);
+	System.out.println(FriendName + " : wow, thats put a lot of work!");
+	System.out.println(MyName + " : i know right? where are you from?");
+
+	//input city name
+	CityName1 = UserInput.nextLine();
+	System.out.println(FriendName + " : " + CityName1 + " is my hometown");
+	System.out.println(MyName + " : Seriously? so do i! I lived in " +  CityName1 + " too!");
+	System.out.println(FriendName + " : What a coincidence!");
+	System.out.println(MyName + " : how long have you lived there?");
+
+	//input your friend's age
+	FriendAge = UserInput.nextInt();
+	System.out.println(FriendName + " : i have lived there since i was born! that was " + FriendAge + " years ago!");
+	System.out.println(FriendName + " : Well, how about you?");
+
+	//input your age
+	MyAge = UserInput.nextInt();
+	System.out.println(MyName + " : So do I! I have lived in " + CityName1 + " for about " + MyAge + " years!");
+	System.out.println(MyName + " : Ok then. You look so busy, what are you working on?");
+	System.out.println(FriendName + " : Well, i have this projects called DOMATH");
+
+	//input projects deadline
+	DaysToGo = UserInput.nextInt();
+	System.out.println(FriendName + " : I have " + DaysToGo + " days to go!");
+	System.out.println(MyName + " : That seems complicated!");
+	System.out.println(FriendName + " : Can you help me with this question?");
+	System.out.println(MyName + " : Sure, go ahead!");
+
+	//input nums to be producted
+	Nums1 = UserInput.nextDouble();
+	Nums2 = UserInput.nextDouble();
+	System.out.println(FriendName + " : What is " + Nums1 + " * " + Nums2);
+	result = Nums1 * Nums2;
+	System.out.println(MyName + " : it looks like the answer is " + result);
+	System.out.println(FriendName + " : 1 more question, do you mind?");
+	System.out.println(MyName + " : Sure!");
+
+	//input nums to be product
+	Nums3 = UserInput.nextInt();
+	Nums4 = UserInput.nextInt();
+	System.out.println(FriendName + " : What is " + Nums3 + " * " + Nums4);
+
+	result_1 = Nums3 * Nums4;
+	System.out.println(MyName + " : The answer would be " + result_1);
+	System.out.println(FriendName + " : Thank you for your help " + MyName);
+	System.out.println(MyName + " : My Pleasure, see you later!");
+	System.out.println(FriendName + " : Bye!");
+        }
+    }
