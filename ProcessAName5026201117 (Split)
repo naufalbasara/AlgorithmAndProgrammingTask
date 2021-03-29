@@ -1,0 +1,23 @@
+package processingname;
+
+import java.util.Scanner;
+import java.lang.String;
+
+public class ProcessName5026201117 {
+
+public static void main(String[] args) {
+        String name, LastName;
+        String FirstName;
+        Scanner console = new Scanner(System.in);
+        System.out.print("Enter your name: ");
+        name = console.nextLine();
+        
+        String[] splitName = name.split(" ");
+        
+        FirstName = splitName[0];
+        LastName = splitName[1];
+
+        char Initial = FirstName.charAt(0);
+        System.out.println(LastName + ", " + Initial + ".");
+    }
+}
