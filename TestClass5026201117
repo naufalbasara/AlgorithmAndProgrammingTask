@@ -5,9 +5,9 @@ public class TestClass5026201117 {
 
     public static void main(String args[]) {
         ComputeMethods5026201117 FTC = new ComputeMethods5026201117();
-	      System.out.println(FTC.FToC(32F));
+	System.out.println(FTC.FToC(32F));
 
-	      ComputeMethods5026201117 Hypo = new ComputeMethods5026201117();
+	ComputeMethods5026201117 Hypo = new ComputeMethods5026201117();
         System.out.println(Hypo.hypotenuse(3, 4));
 
         ComputeMethods5026201117 Dice = new ComputeMethods5026201117();
