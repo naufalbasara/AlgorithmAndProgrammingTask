@@ -13,12 +13,12 @@ public class RockPaperScissor{
     
     
     if (Userinput == Bebas) {
-			System.out.println("DRAW");
-		}
+	System.out.println("DRAW");
+	}
 
-		else if ((Userinput == 1 && Bebas == 3) || (Userinput == 2 && Bebas == 1) || (Userinput == 3 && Bebas == 2)) {
-			System.out.println("You Wins");
-		} 
+    else if ((Userinput == 1 && Bebas == 3) || (Userinput == 2 && Bebas == 1) || (Userinput == 3 && Bebas == 2)) {
+	System.out.println("You Wins");
+	} 
 
     else {
       System.out.println("Sorry, you lose");
