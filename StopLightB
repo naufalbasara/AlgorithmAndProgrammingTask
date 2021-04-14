@@ -1,0 +1,35 @@
+/**
+ * IS184203-Genap-2020/21 - Code in Class Exercise Week 05
+ * Name of Project  : Traffic Light Switch
+ * Student ID       : 5026201117
+ * Student Name     : Naufal Rafiawan Basara
+ * Class            : A
+ * Submission Date  : April 6th, 2021
+ */
+
+import java.util.Scanner;
+
+public class StopLightB {
+	public static void play() {
+	Scanner sc= new Scanner(System.in);
+	System.out.print("Enter a color code : ");
+	int number= sc.nextInt();
+
+	switch (number){
+		case 1:
+		System.out.println("Next traffic light is green.");
+		break;
+		
+		case 2:
+		System.out.println("Next  traffic light is yellow.");
+		break;
+
+		case 3:
+		System.out.println("Next traffic light is red.");
+		break;
+
+		default:
+		System.out.println("Invalid color.");
+		}
+	}
+}
