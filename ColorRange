@@ -1,0 +1,41 @@
+/**
+ * IS184203-Genap-2020/21 - Code in Class Exercise Week 05
+ * Name of Project  : Color Range
+ * Student ID       : 5026201117
+ * Student Name     : Naufal Rafiawan Basara
+ * Class            : A
+ * Submission Date  : April 6th, 2021
+ */
+
+import java.util.*;
+public class ColorRange {
+    public static void play() {
+        Scanner inputUser = new Scanner(System.in);
+        double wavelength;
+        System.out.print("Enter a color code : ");
+        wavelength = inputUser.nextDouble();
+
+        if (380<=wavelength && wavelength<450){
+            System.out.println("the color is violet");
+        }
+        else if (450<=wavelength && wavelength<495){
+            System.out.println("the color is blue");
+        }
+        else if (495<=wavelength && wavelength<570){
+            System.out.println("the color is green");
+        }
+        else if (570<=wavelength && wavelength<590){
+            System.out.println("the color is yellow");
+        }
+        else if (590<=wavelength && wavelength<620){
+            System.out.println("the color is orange");
+        }
+        else if (620<=wavelength && wavelength<750){
+            System.out.println("the color is red");
+        }
+        else {
+            System.out.println("The entered wavelength is not a part of the visible spectrum");
+        }
+    }
+
+}
