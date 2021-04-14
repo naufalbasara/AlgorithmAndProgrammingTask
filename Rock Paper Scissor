@@ -5,7 +5,7 @@ public class RockPaperScissor{
     public void play(){
     Scanner console = new Scanner(System.in);
     Random generator = new Random();
-    System.out.println("Welcome to the game, please input your number 1 for rock, 2 for paper, 3 for scissor");
+    System.out.println("Welcome to rock, paper, scissor game \nplease input your number (1 for rock, 2 for paper, 3 for scissor)");
     System.out.print("input your number :");
     int Userinput = (int)console.nextInt();
     int Bebas = generator.nextInt(3)+1;
