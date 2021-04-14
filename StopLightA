@@ -1,0 +1,37 @@
+/**
+ * IS184203-Genap-2020/21 - Code in Class Exercise Week 05
+ * Name of Project  : Traffic Light Checker
+ * Student ID       : 5026201117
+ * Student Name     : Naufal Rafiawan Basara
+ * Class            : A
+ * Submission Date  : April 6th, 2021
+ */
+
+import java.util.*;
+
+public class StopLightA {
+
+    public static void play() {
+      Scanner scan = new Scanner(System.in);
+
+      System.out.println("Traffic Light Color\n 1 = red\n 2 = green\n 3 = yellow");
+      System.out.println("Enter a color code: ");
+      int currentColor = scan.nextInt();
+
+      if (currentColor == 1) {
+        System.out.println("The next color is green");
+      }
+
+      else if (currentColor == 2) {
+        System.out.println("The next color is yellow");
+      }
+
+      else if (currentColor == 3) {
+        System.out.println("The next color is red");
+      }
+
+      else {
+        System.out.println("Invalid Color");
+      }
+    }
+}
